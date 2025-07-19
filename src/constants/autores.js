@@ -48,9 +48,6 @@ const autores = [
     "<strong>O Retorno do Rei</strong> (<em>The Return of the King</em>)"
     ]
 },
-
-
-
   {
     id: "george-r-r-martin",
     nome: "George R.R. Martin",
@@ -76,8 +73,6 @@ const autores = [
     "<strong>A Dance with Dragons</strong> (2011)"
     ]
 }
-
 ];
-
 
 export default autores;
