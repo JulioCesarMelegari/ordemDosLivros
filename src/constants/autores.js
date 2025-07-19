@@ -1,5 +1,5 @@
 const autores = [
-  {
+    {
     id: "j-k-rowling",
     nome: "J.K. Rowling",
     imagem: "https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2018/11/01092112/GettyImages-950047520.jpg",

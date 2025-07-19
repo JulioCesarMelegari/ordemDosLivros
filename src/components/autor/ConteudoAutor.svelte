@@ -1,7 +1,7 @@
 <script lang="ts">
-    import { marked } from "marked";
+  import { marked } from "marked";
 
-    export let autor: any = null;
+  export let autor: any = null;
 </script>
 
 {#if autor}
@@ -80,3 +80,4 @@
         </article>
     </div>
 {/if}
+
