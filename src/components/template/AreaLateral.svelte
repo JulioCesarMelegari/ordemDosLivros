@@ -11,7 +11,7 @@
     <Menu titulo="Navegação">
         <MenuItem texto="Início" href="/" />
         <MenuItem texto="Personagens" href="/" />
-        <MenuItem texto="Autores" href="/" />
+        <MenuItem texto="Autores" href="/autores" />
         <MenuItem texto="Séries" href="/" />
     </Menu>
     <Menu titulo="Principais Autores">
