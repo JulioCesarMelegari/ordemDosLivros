@@ -9,6 +9,6 @@
     <div class="flex flex-col gap-2 p-5">
         <span class="text-2x1 font-black">{serie.titulo}</span>
         <span class="text-sm text-zinc-400 text-justify">{serie.descricao}</span>
-        <button>Leia Mais</button>
+        <button class="botao azul self-end">Leia Mais</button>
     </div>
 {/if}
