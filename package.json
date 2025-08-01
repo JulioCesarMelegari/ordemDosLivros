@@ -25,6 +25,7 @@
 		"vite-plugin-string": "^1.2.3"
 	},
 	"dependencies": {
+		"@tabler/icons-svelte": "^3.34.1",
 		"marked": "^16.1.0"
 	}
 }
