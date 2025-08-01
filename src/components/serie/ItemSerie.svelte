@@ -3,7 +3,7 @@
 </script>
 
 {#if serie}
-    <a href="/serie/{serie.id}" class="flex flex-col rounded-md overflow-hidden border border-zinc-800">
+    <a href="/series/{serie.id}" class="flex flex-col rounded-md overflow-hidden border border-zinc-800">
        <img src = {serie.imagem} alt="Imagem da Serie" class="h-96 object-cover" />
     </a>
     <div class="flex flex-col gap-2 p-5">
