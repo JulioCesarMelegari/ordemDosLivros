@@ -1,5 +1,5 @@
 <script lang="ts">
-
+  import ItemLivro from "./ItemLivro.svelte";
   export let serie: any = null;
 </script>
 
@@ -11,6 +11,11 @@
     >
     <img src={serie.imagem} alt="Imagem da Série" class="h-96 object-cover" />
     <p class="text-lg text-zinc-400 text-justify">{serie.descricao}</p>
-
+    <h2>Lista de Livros</h2>
+    <div class="grid grid-cols-3 gap-5">
+      {#each serie.livros as livro}
+        <ItemLivro {livro} />
+      {/each}
+    </div>
   </div>
 {/if}
